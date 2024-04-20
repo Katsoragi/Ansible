@@ -1,5 +1,5 @@
 ---
-- hosts: pi's
+- hosts: Pi's
   become: true
   tasks:
     - name: Update apt repo and cache on all Debian/Ubuntu boxes
