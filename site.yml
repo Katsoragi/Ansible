@@ -1,7 +1,7 @@
 ---
-- hosts: pi's
+- hosts: Pi's
   become: true
   tasks:
-    -  name: print OS info
-       ansible.builtin.package:
-         name: apach2
+    - name: Print OS info
+      ansible.builtin.package:
+        name: apache2
