@@ -1,4 +1,12 @@
+---
+- hosts: pi's
+  become: true
+  tasks:
     - name: Updating all packages
       apt:
         upgrade: yes
         update_cache: yes
+    
+    
+    
+
